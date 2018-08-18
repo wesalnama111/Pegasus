@@ -18,7 +18,9 @@
     font-family: UniSansCAPSthinitalic;
     src: url(../font/UniSansThinItalic.otf);
 }
-
+a:active, a:hover{
+    text-decoration: none!important;
+}
 .custom-container {
     width:100%!important;
     margin: 0 auto;
@@ -72,6 +74,7 @@
 /*.section-one:START*/
 .section-one{
     background-image:url(../Assets/buffalo.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -201,6 +204,7 @@
     background-image: url(../Assets/machine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     filter:grayscale(1);
     position: absolute;
     left: 0;
@@ -224,8 +228,8 @@
     font-size: 280px;
     height: 502px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     font-weight: 100;
     font-style: normal;
     font-stretch: normal;
@@ -283,6 +287,7 @@ margin: 67px 2px 1px 1px;
     background-image: url(../Assets/machine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     filter:grayscale(1);
     position: absolute;
     left: 0;
@@ -346,6 +351,7 @@ margin: 67px 2px 1px 1px;
     letter-spacing: -0.2px;
     text-align: center;
     color: #ffffff;
+    opacity:0.5;
 }
 .section-three  .carousel-indicators {
         bottom:35px;
@@ -362,7 +368,7 @@ margin: 67px 2px 1px 1px;
 }
 .section-three  .carousel-indicators .active{
     background-color: #efb817;
-    box-shadow: 0 0 7px 0 rgba(47, 23, 23, 0.5);
+    box-shadow:0px 0px 1px 8px rgba(47, 23, 23, 0.5);
 }
 
 /*section-three:END*/
@@ -378,6 +384,7 @@ position: relative;
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 48%;
+
     position: absolute;
     left: 0;
     right: 0;
@@ -396,7 +403,7 @@ position: relative;
     letter-spacing: -1.7px;
     text-align: center;
     color: #efb817;
-    padding: 79px 0px 12px 0px;
+    padding: 90px 0px 12px 0px;
 }
 .section-four .requestitbro span{
     color: #f7f7f8;
@@ -411,10 +418,10 @@ position: relative;
     letter-spacing: normal;
     text-align: center;
     color: #a8aaad;
-    padding: 50px 1px 1px 1px;
+    padding: 25px 1px 1px 1px;
 }
 .section-four .taketheflowbro{
-    width: 65%;
+    width: 66%;
 }
 .section-four .flex-custom{
     display:flex;
@@ -422,7 +429,7 @@ position: relative;
     align-items: flex-start;
     justify-content: flex-start;
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 73px;
 
 }
 .section-four .flex-custom .form-top-text{
@@ -478,7 +485,7 @@ position: relative;
     line-height: normal;
     letter-spacing: normal;
     color: #efb817;
-    margin-right: 100px;
+    margin-right: 40px;
     padding: 40px 0px;
     margin-bottom: 0px;
 }
@@ -493,10 +500,18 @@ position: relative;
     line-height: normal;
     letter-spacing: 1.5px;
     text-align: center;
-    color: #ffffff;
+    color: #efb817;
     padding: 14px 45px;
 
 }
+.section-five a:hover,
+.section-five a:focus,
+.section-five a:visited,
+.section-five a:active{
+    text-decoration: none!important;
+    color:#efb817!important;
+                }
+
 /*section-five:END*/
 
 
@@ -508,11 +523,14 @@ position: relative;
     display: flex;
     justify-content: space-around;
 }
+.social-icons{
+    margin-right: 42px;
+}
 .give-amazing-margin{
-    margin-left: -200px;
+    margin-left: 0px;
 }
 .another-left{
-    margin-left: 100px;
+    margin-left: 0px;
 
 }
 .margin-left-special{
@@ -544,7 +562,7 @@ position: relative;
 
 .redcolor p{
     font-weight: 600;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 0.5px;
 }
 .footer-area .list3 i{
@@ -553,7 +571,9 @@ position: relative;
     height: 16px;
 
 }
-
+.give-bottom{
+margin-bottom: 60px;
+}
 .footer {
     background-color: #efb817;
     height: 100%; }
@@ -564,7 +584,7 @@ position: relative;
 }
 .footer-menu p, .footer-menu a{
     font-family: AvenirNext;
-    font-size: 16.8px;
+    font-size: 13.8px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -581,7 +601,13 @@ position: relative;
 .footer-menu a:hover{
     color: #fc0606;
 }
-
+.responsive-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .give-bottom .offset-2{
+    margin-left: 10%!important;
+}
 .footer-paragraph p{
     width: 222px;
     font-family: AvenirNext;

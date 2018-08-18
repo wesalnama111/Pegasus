@@ -1,13 +1,20 @@
 /*footer:START*/
 @media (max-width: 479px) and (min-width: 320px){
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
     max-width: 100%;
     }
     /*.section-one:START*/
     .section-one .HEADERS .col-7 img{
         width: auto;
-        height: 65px;
-        padding-top: 8px;
+        height: 50px;
+        padding-top: 0px;
     }
     .responsive-column{
         display: flex;
@@ -232,14 +239,21 @@
     /*footer:END*/
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
         max-width: 100%;
     }
     /*.section-one:START*/
     .section-one .HEADERS .col-7 img{
         width: auto;
-        height: 65px;
-        padding-top: 8px;
+        height: 50px;
+
     }
     .responsive-column{
         display: flex;
@@ -247,7 +261,7 @@
         text-align: left!important;
     }
     .menu-button{
-        width: 10%;
+        width: 6%;
         height: 20px;
     }
     .socialicons:first-child{
@@ -463,6 +477,13 @@
     /*footer:END*/
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
         max-width: 100%;
     }
@@ -478,7 +499,7 @@
         text-align: left!important;
     }
     .menu-button{
-        width: 10%;
+        width: 6%;
         height: 20px;
     }
     .socialicons:first-child{
@@ -695,6 +716,13 @@
     /*footer:END*/
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
         max-width: 100%;
     }
@@ -710,7 +738,7 @@
         text-align: left!important;
     }
     .menu-button{
-        width: 10%;
+        width: 6%;
         height: 20px;
     }
     .socialicons:first-child{
@@ -926,6 +954,14 @@
     /*footer:END*/
 }
 @media (max-width: 991px) and (min-width: 768px){
+
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
+    .section-four .taketheflowbro p br{
+        display:none;
+    }
     .custom-container{
         max-width: 100%;
     }
@@ -934,6 +970,15 @@
         width: auto;
         height: 65px;
         padding-top: 8px;
+    }
+    .section-four .flex-custom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .section-four .flex-custom a{
+        margin-left:7%;
     }
     .responsive-column{
         display: flex;
@@ -1064,11 +1109,14 @@
         margin-left:50px;
     }
     .section-five p{
-        margin-right: 10px;
+        margin-right: 25px;
         text-align: center;
     }
+    .social-icons{
+        margin-right:0px;
+    }
     .section-five{
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     /*.section-one:END*/
     /*footer:START*/
@@ -1171,6 +1219,9 @@
     /*footer:END*/
 }
 @media (max-width: 1023px) and (min-width: 992px){
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
         max-width: 100%;
     }
@@ -1415,6 +1466,9 @@
     /*footer:END*/
 }
 @media (max-width: 1199px) and (min-width: 1024px){
+    .section-four .taketheflowbro p br{
+        display:none
+    }
     .custom-container{
         max-width: 100%;
     }

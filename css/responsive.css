@@ -101,7 +101,7 @@
     }
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 1px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -136,7 +136,7 @@
         text-align: center;
     }
     .section-five{
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     /*.section-one:END*/
     /*footer:START*/
@@ -339,7 +339,7 @@
     }
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: !px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -374,7 +374,7 @@
         text-align: center;
     }
     .section-five{
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
     /*.section-one:END*/
     /*footer:START*/
@@ -578,7 +578,7 @@
     }
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 1px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -816,7 +816,7 @@
     }
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 1px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -1061,7 +1061,7 @@
     }
 
     .section-two .big-text p{
-        font-size: 21vw;
+        font-size: 20.5vw;
         height: 202px;
         text-align: center;
         display: flex;
@@ -1071,7 +1071,7 @@
 
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 1.3px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -1219,8 +1219,13 @@
     /*footer:END*/
 }
 @media (max-width: 1023px) and (min-width: 992px){
+
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
     .section-four .taketheflowbro p br{
-        display:none
+        display:none;
     }
     .custom-container{
         max-width: 100%;
@@ -1230,6 +1235,15 @@
         width: auto;
         height: 65px;
         padding-top: 8px;
+    }
+    .section-four .flex-custom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .section-four .flex-custom a{
+        margin-left:7%;
     }
     .responsive-column{
         display: flex;
@@ -1312,7 +1326,7 @@
     }
 
     .section-two .big-text p{
-        font-size: 21vw;
+        font-size: 20.5vw;
         height: 202px;
         text-align: center;
         display: flex;
@@ -1322,7 +1336,7 @@
 
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 2.3px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -1353,14 +1367,18 @@
     .section-four .flex-custom .form-top-text{
         font-size: 16px;
         margin-top: 35px;
+        margin-left: 50px;
     }
     .section-four .flex-custom input{
         width: 50%;
         margin-left:50px;
     }
     .section-five p{
-        margin-right: 10px;
+        margin-right: 25px;
         text-align: center;
+    }
+    .social-icons{
+        margin-right:0px;
     }
     .section-five{
         padding-bottom: 0px;
@@ -1466,8 +1484,13 @@
     /*footer:END*/
 }
 @media (max-width: 1199px) and (min-width: 1024px){
+
+    .section-one .HEADERS .col-5{
+        padding-right: 25px;
+        padding-top: 9px;
+    }
     .section-four .taketheflowbro p br{
-        display:none
+        display:none;
     }
     .custom-container{
         max-width: 100%;
@@ -1477,6 +1500,15 @@
         width: auto;
         height: 65px;
         padding-top: 8px;
+    }
+    .section-four .flex-custom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .section-four .flex-custom a{
+        margin-left:7%;
     }
     .responsive-column{
         display: flex;
@@ -1559,7 +1591,7 @@
     }
 
     .section-two .big-text p{
-        font-size: 21vw;
+        font-size: 20.5vw;
         height: 202px;
         text-align: center;
         display: flex;
@@ -1569,7 +1601,7 @@
 
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: 0.3px #f7f7f8;
+        -webkit-text-stroke: 2.3px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -1600,14 +1632,18 @@
     .section-four .flex-custom .form-top-text{
         font-size: 16px;
         margin-top: 35px;
+        margin-left: 50px;
     }
     .section-four .flex-custom input{
         width: 50%;
         margin-left:50px;
     }
     .section-five p{
-        margin-right: 10px;
+        margin-right: 25px;
         text-align: center;
+    }
+    .social-icons{
+        margin-right:0px;
     }
     .section-five{
         padding-bottom: 0px;

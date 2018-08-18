@@ -73,7 +73,7 @@ a:active, a:hover{
 }
 /*.section-one:START*/
 .section-one{
-    background-image:url(../Assets/buffalo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(6, 6, 6, 0.72)),url(../Assets/buffalo.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,8 +84,8 @@ a:active, a:hover{
 }
 
 .section-one .HEADERS .col-7 img{
-    width:200px;
-    height:79px;
+    width:auto;
+    height:66px;
     margin: 16px 1px 5px 0px;
 }
 .section-one .HEADERS .col-5 {
@@ -113,9 +113,9 @@ a:active, a:hover{
 }
 .section-one .second-row .navbar li span{
 
-    font-family: UniSansCAPS;
+    font-family: UniSansCAPSheavy;
     font-size: 15px;
-    font-weight: 900;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.88;
@@ -201,7 +201,7 @@ a:active, a:hover{
 }
 .section-two-overlay{
 
-    background-image: url(../Assets/machine.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(6, 6, 6, 0.72)), url(../Assets/machine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -223,7 +223,7 @@ a:active, a:hover{
 
 .section-two .big-text p {
 
-    opacity: 0.3;
+    opacity: 0.4;
     font-family: UniSansCAPS;
     font-size: 280px;
     height: 502px;
@@ -284,7 +284,7 @@ margin: 67px 2px 1px 1px;
 }
 .section-three-overlay{
 
-    background-image: url(../Assets/machine.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(6, 6, 6, 0.72)), url(../Assets/machine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -454,6 +454,7 @@ position: relative;
 }
 .section-four .flex-custom input::placeholder{
     color:#c1c5c9;
+    opacity:0.4;
 }
 .section-four .flex-custom a {
     border: solid 2px #efb817;

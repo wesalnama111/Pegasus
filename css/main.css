@@ -201,7 +201,7 @@ a:active, a:hover{
 }
 .section-two-overlay{
 
-    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(6, 6, 6, 0.72)), url(../Assets/machine.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(6, 6, 6, 0.72)), url(../Assets/machine1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

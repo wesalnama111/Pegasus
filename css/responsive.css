@@ -1028,7 +1028,7 @@
 
     .section-four .flex-custom{
         padding: 0px!important;
-        margin-left: 10%;
+        padding-left: 10%;
     }
     .section-four .requestitbro p{
         font-size: 39px;
@@ -1039,9 +1039,11 @@
     .section-four .flex-custom .form-top-text{
         font-size: 16px;
         margin-top: 35px;
+        margin-left: 50px;
     }
     .section-four .flex-custom input{
         width: 50%;
+        margin-left:50px;
     }
     .section-five p{
         margin-right: 10px;
@@ -1271,7 +1273,7 @@
 
     .section-four .flex-custom{
         padding: 0px!important;
-        margin-left: 10%;
+        padding-left: 10%;
     }
     .section-four .requestitbro p{
         font-size: 39px;
@@ -1285,6 +1287,7 @@
     }
     .section-four .flex-custom input{
         width: 50%;
+        margin-left:50px;
     }
     .section-five p{
         margin-right: 10px;
@@ -1514,7 +1517,7 @@
 
     .section-four .flex-custom{
         padding: 0px!important;
-        margin-left: 10%;
+        padding-left: 10%;
     }
     .section-four .requestitbro p{
         font-size: 39px;
@@ -1528,6 +1531,7 @@
     }
     .section-four .flex-custom input{
         width: 50%;
+        margin-left:50px;
     }
     .section-five p{
         margin-right: 10px;

@@ -22,7 +22,7 @@
         margin-left: 0px;
     }
     .menu-button  div{
-        border: 1px solid black;
+        border: 1px solid white;
         height: 1px;
         margin-bottom: 9px;
     }
@@ -30,8 +30,13 @@
         display: block;
         height: 50px;
         margin-top: 18px;
-        margin-left: 20px;
+        margin-right: 20px;
     }
+    .for-responsive-only .custom-container{
+        display:flex;
+        justify-content: flex-end;
+    }
+
     .showhide{
         display:none;
     }
@@ -249,7 +254,7 @@
         margin-left: 0px;
     }
     .menu-button  div{
-        border: 1px solid black;
+        border: 1px solid white;
         height: 1px;
         margin-bottom: 9px;
     }
@@ -257,7 +262,11 @@
         display: block;
         height: 50px;
         margin-top: 18px;
-        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .for-responsive-only .custom-container{
+        display:flex;
+        justify-content: flex-end;
     }
     .showhide{
         display:none;
@@ -475,8 +484,9 @@
     .socialicons:first-child{
         margin-left: 0px;
     }
+
     .menu-button  div{
-        border: 1px solid black;
+        border: 1px solid white;
         height: 1px;
         margin-bottom: 9px;
     }
@@ -484,7 +494,11 @@
         display: block;
         height: 50px;
         margin-top: 18px;
-        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .for-responsive-only .custom-container{
+        display:flex;
+        justify-content: flex-end;
     }
     .showhide{
         display:none;
@@ -703,7 +717,7 @@
         margin-left: 0px;
     }
     .menu-button  div{
-        border: 1px solid black;
+        border: 1px solid white;
         height: 1px;
         margin-bottom: 9px;
     }
@@ -711,7 +725,11 @@
         display: block;
         height: 50px;
         margin-top: 18px;
-        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .for-responsive-only .custom-container{
+        display:flex;
+        justify-content: flex-end;
     }
     .showhide{
         display:none;

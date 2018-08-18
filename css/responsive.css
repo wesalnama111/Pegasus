@@ -5,13 +5,126 @@
 }
     /*.section-one:START*/
     .section-one .HEADERS .col-7 img{
+        width: auto;
+        height: 65px;
+        padding-top: 8px;
+    }
+    .responsive-column{
+        display: flex;
+        flex-direction: column!important;
+        text-align: left!important;
+    }
+    .menu-button{
+        width: 10%;
+        height: 20px;
+    }
+    .socialicons:first-child{
+        margin-left: 0px;
+    }
+    .menu-button  div{
+        border: 1px solid black;
+        height: 1px;
+        margin-bottom: 9px;
+    }
+    .for-responsive-only{
+        display: block;
+        height: 50px;
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+    .showhide{
+        display:none;
+    }
+    .responsive-no-off{
+        margin-left: 0px!important;
+    }
+    .give-amazing-margin{
+        margin-left: 0px;
+    }
+    .footer-menu-last{
+        display:flex;
+        flex-direction:column;
 
+    }
+    .custom-flex-footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .another-left{
+        margin-left: 0px;
+    }
+    .social-icons{
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .all-width{
+
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .responsive-flex{
+        display: flex;
+        flex-direction: column;
     }
     .section-one .third-row .header-text p{
         font-size: 36px;
     }
     .section-one .fourth-row .learnmore-header{
         width:100%;
+    }
+    .section-two .fourth-row .learnmore-header{
+        width:100%;
+    }
+    .section-two .big-text p{
+        font-size: 21vw;
+        height: 202px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .section-three .big-text p{
+        font-size: 26vw;
+        -webkit-text-stroke: 0.3px #f7f7f8;
+        height: 142px;
+        padding: 0px!important;
+    }
+    .section-three .fourth-row .learnmore-header{
+        width:100%;
+    }
+    .section-three .fourth-row .learnmore-header p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-four .taketheflowbro{
+        width:100%;
+    }
+    .section-four .flex-custom{
+        padding: 0px!important;
+    }
+    .section-four .requestitbro p{
+        font-size: 39px;
+    }
+    .section-four .taketheflowbro p{
+        font-size: 15px;
+    }
+    .section-four .flex-custom .form-top-text{
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    .section-four .flex-custom input{
+        width: 100%;
+    }
+    .section-five p{
+        margin-right:0px;
+        text-align: center;
+    }
+    .section-five{
+        padding-bottom: 20px;
     }
     /*.section-one:END*/
     /*footer:START*/
@@ -38,12 +151,12 @@
     }
 
     .footer-menu p{
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .redcolor p{
         margin-top: 30px;
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .footer-menu1 .text-bold{

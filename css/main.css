@@ -26,6 +26,9 @@
     padding-right: 0px!important;
     padding-left: 0px!important;
 }
+.for-responsive-only{
+ display:none;
+}
 .flex {
     display:flex;
     justify-content: center;

@@ -1,5 +1,19 @@
 /*footer:START*/
 @media (max-width: 479px) and (min-width: 320px){
+    .section-four-background{
+        background-color: #191d24;
+        background-image: linear-gradient(261deg, rgba(0, 0, 0, 0), #191d24) ,url(../Assets/litecuremachine.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        z-index: -1;
+
+    }
     .section-one .HEADERS .col-5{
         padding-right: 25px;
         padding-top: 9px;
@@ -239,6 +253,20 @@
     /*footer:END*/
 }
 @media (max-width: 574px) and (min-width: 480px){
+    .section-four-background{
+        background-color: #191d24;
+        background-image: linear-gradient(261deg, rgba(0, 0, 0, 0), #191d24) ,url(../Assets/litecuremachine.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        z-index: -1;
+
+    }
     .section-one .HEADERS .col-5{
         padding-right: 25px;
         padding-top: 9px;
@@ -339,7 +367,7 @@
     }
     .section-three .big-text p{
         font-size: 26vw;
-        -webkit-text-stroke: !px #f7f7f8;
+        -webkit-text-stroke: 1px #f7f7f8;
         height: 142px;
         padding: 0px!important;
     }
@@ -477,6 +505,20 @@
     /*footer:END*/
 }
 @media (max-width: 684px) and (min-width: 575px){
+    .section-four-background{
+        background-color: #191d24;
+        background-image: linear-gradient(261deg, rgba(0, 0, 0, 0), #191d24) ,url(../Assets/litecuremachine.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        z-index: -1;
+
+    }
     .section-one .HEADERS .col-5{
         padding-right: 25px;
         padding-top: 9px;
@@ -716,6 +758,20 @@
     /*footer:END*/
 }
 @media (max-width: 767px) and (min-width: 685px){
+    .section-four-background{
+        background-color: #191d24;
+        background-image: linear-gradient(261deg, rgba(0, 0, 0, 0), #191d24) ,url(../Assets/litecuremachine.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        bottom: 0;
+        z-index: -1;
+
+    }
     .section-one .HEADERS .col-5{
         padding-right: 25px;
         padding-top: 9px;
@@ -954,7 +1010,19 @@
     /*footer:END*/
 }
 @media (max-width: 991px) and (min-width: 768px){
-
+    .section-four-background {
+        background-color: #191d24;
+        background-image: linear-gradient(261deg, rgba(0, 0, 0, 0), #191d24) ,url(../Assets/litecuremachine.png);
+        background-position: 130% 95%;
+        background-repeat: no-repeat;
+        background-size: 63% 65%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
     .section-one .HEADERS .col-5{
         padding-right: 25px;
         padding-top: 9px;
